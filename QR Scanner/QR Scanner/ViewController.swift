@@ -55,7 +55,7 @@ class ViewController: UIViewController {
         objCaptureSession?.startRunning()
         
         self.view.bringSubviewToFront(qrCodeResultLabel)
-        self.view.bringSubviewToFront(qrCodeLabel)
+        //self.view.bringSubviewToFront(qrCodeLabel)
     }
     
     // Func to put the QRCode image can detect and display on the device
